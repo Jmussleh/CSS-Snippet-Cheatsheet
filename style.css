@@ -1,0 +1,46 @@
+:root {
+--pink: blueviolet; 
+--white: white;
+}
+
+html {
+background-color: #21262b;
+}
+
+
+h1 {
+text-align: center;
+color: var(--pink)
+}
+
+article {
+text-align: center;
+color: var(--white);
+}
+
+h2 {
+    text-align: center;
+    color:var(--pink) ;
+}
+
+pre {
+color: var(--white);
+}
+
+.linear-gradient-background {
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+}
+
+.row1, .row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:
+} 
+
+footer {
+text-align: center;
+color: var(--pink);
+}
